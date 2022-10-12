@@ -1,6 +1,8 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
-import store from './store'
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "./router";
+import store from "./store";
 
-createApp(App).use(store).use(router).mount('#app')
+import loader from "vue-ui-preloader";
+
+createApp(App).use(store).use(router).use(loader).mount("#app");
