@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <HeaderVue />
+    <HeaderVue
+      v-if="!['Dashboard', 'Login', 'Register'].includes($route.name)"
+    />
     <!-- <Home></Home> -->
 
     <!-- <loader
@@ -16,7 +18,9 @@
       name="circular"
     ></loader> -->
     <router-view />
-    <FooterVue />
+    <FooterVue
+      v-if="!['Dashboard', 'Login', 'Register'].includes($route.name)"
+    />
   </div>
 </template>
 <script>
@@ -42,7 +46,7 @@ export default {
 </script>
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Open sans", "Raleway", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

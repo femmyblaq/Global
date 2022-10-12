@@ -6,6 +6,9 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
+    meta: {
+      title: "Home",
+    },
   },
   {
     path: "/about",
@@ -15,13 +18,16 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
+    meta: {
+      title: "About",
+    },
   },
   {
     path: "/contact",
     name: "Contact",
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Contact.vue"),
-    mata: {
+    meta: {
       title: "Contact",
     },
   },
@@ -31,7 +37,7 @@ const routes = [
 
     component: () =>
       import(/* webpackChunkName: "Login" */ "../views/Login.vue"),
-    mata: {
+    meta: {
       title: "Login",
     },
   },
@@ -41,7 +47,7 @@ const routes = [
 
     component: () =>
       import(/* webpackChunkName: "Register" */ "../views/Registe.vue"),
-    mata: {
+    meta: {
       title: "Register",
     },
   },
@@ -51,7 +57,7 @@ const routes = [
 
     component: () =>
       import(/* webpackChunkName: "Register" */ "../views/Business.vue"),
-    mata: {
+    meta: {
       title: "Business",
     },
   },
@@ -60,6 +66,11 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
+});
+
+router.beforeEach((to, from, next) => {
+  document.title = `${to.meta.title} | Cashglobell`;
+  next();
 });
 
 export default router;

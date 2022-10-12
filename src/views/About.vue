@@ -42,10 +42,10 @@
             collaborations across government.
           </p>
           <p>
-            PayGlobel is a key project of GlobelMoney Group - and GlobelMoney
+            CashGlobell is a key project of GlobelMoney Group - and GlobelMoney
             Group is founded in 2014 with the first project name (GlobelMoney -
             Gain The Money Solutions) after 4 years of success in market the
-            group decide to launch the 2nd project by the name (PayGlobel) to
+            group decide to launch the 2nd project by the name (CashGlobell) to
             provide all the remaining services which we promise to provide in
             first project and we couldn't, GlobelMoney Group also find a
             GlobelBank - and aim to provide 4G Modern Banking the GlobelBank

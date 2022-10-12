@@ -72,3 +72,11 @@
     </div>
   </div>
 </template>
+
+<style lang="scss">
+@media (min-width: 200px) and (max-width: 450px) {
+  #footer {
+    padding: 20px !important;
+  }
+}
+</style>

@@ -36,7 +36,7 @@
               class="lg-img"
               alt=""
             />
-            <div class="carousel-caption d-md-block">
+            <div class="carousel-caption d-md-block" data-aos="fade-up">
               <h1 class="fw-bolder">Send Money and Receive Money Globally</h1>
               <p>
                 Make International Transaction with CASH GLOBEL, Worldwide with
@@ -54,25 +54,32 @@
               class="lg-img"
               alt=""
             />
-            <div class="carousel-caption d-md-block">
-              <h1 class="fw-bolder">Send Money and Receive Money Globally</h1>
-              <p>
-                Make International Transaction with CASH GLOBEL, Worldwide with
-                no limitation.
-              </p>
-              <div class="btn btn-lg btn-warning rounded-0 fw-bold py-4 px-5">
-                Open an Account
+            <div
+              class="carousel-caption d-md-block text-start"
+              data-aos="fade-up"
+            >
+              <!-- <h1 class="fw-bolder">New Account tends to enjoy $500.</h1> -->
+              <h1 class="fw-bold">Bank wherever life takes you, it's easy.</h1>
+              <div
+                class="btn btn-lg btn-warning rounded-0 fw-bold py-3 mt-5 px-5"
+              >
+                Sign up today!
               </div>
             </div>
             <!-- <img src="./assets/secondImg.png" class="sm-img" alt="" /> -->
           </div>
           <div class="carousel-item">
             <img src="../assets/Images/third_img.jpg" class="lg-img" alt="" />
-            <div class="carousel-caption d-md-block">
-              <h1 class="fw-bolder">Send Money and Receive Money Globally</h1>
+            <div
+              class="carousel-caption d-md-block text-end"
+              data-aos="fade-up"
+            >
+              <h1 class="fw-bolder">
+                New Accounts is also elegible to get loan.
+              </h1>
               <p>
-                Make International Transaction with CASH GLOBEL, Worldwide with
-                no limitation.
+                CashGlobell Capital offers you quick access to flexible loans to
+                grow your business. No collateral required.
               </p>
               <div class="btn btn-lg btn-warning rounded-0 fw-bold py-4 px-5">
                 Open an Account
@@ -109,7 +116,7 @@
     <div class="second-part p-5">
       <div class="row m-0 p-5">
         <div class="col-lg-6 col-md-6">
-          <div class="box shadow bg-warning w-75">
+          <div class="box shadow bg-warning w-75" data-aos="fade-right">
             <div class="py-3 mx-3">
               <h2 class="fw-bolder text-white m-0">Enjoy</h2>
               <h1
@@ -122,7 +129,7 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-6">
-          <div class="text-content text-start">
+          <div class="text-content text-start" data-aos="fade-up">
             <h2 class="fw-bolder">New Business checking Account customers</h2>
             <p>
               Enjoy $100 when you open a CashGlobell Business Secure Banking℠
@@ -137,9 +144,13 @@
     </div>
     <div class="third-part p-5">
       <h1></h1>
-      <div class="row m-0">
+      <div class="row m-0 my-4">
         <div class="col-lg-4 col-md-6 text-center">
-          <img src="../assets/Images/secondPhone.png" alt="" />
+          <img
+            src="../assets/Images/secondPhone.png"
+            data-aos="fade-right"
+            alt=""
+          />
           <h5 class="fw-bold mt-4">
             Send money cheaper and easier than old-school banks.
           </h5>
@@ -149,7 +160,11 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6 text-center">
-          <img src="../assets/Images/firstPhone.png" alt="" />
+          <img
+            src="../assets/Images/firstPhone.png"
+            data-aos="fade-up"
+            alt=""
+          />
           <h5 class="fw-bold mt-4">
             Receive payments like a local in 50+ currencies.
           </h5>
@@ -162,7 +177,11 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-12 text-center">
-          <img src="../assets/Images/thirdPhone.png" alt="" />
+          <img
+            src="../assets/Images/thirdPhone.png"
+            data-aos="fade-left"
+            alt=""
+          />
           <h5 class="fw-bold mt-4">Convert and hold 50+ currencies.</h5>
           <p>
             Holding multiple currencies is completely free, and we use the real
@@ -175,8 +194,8 @@
       </div>
     </div>
     <div class="fourth-part py-5">
-      <div class="row p-0 w-75 mx-auto">
-        <div class="col-lg-6">
+      <div class="row p-0 w-75 my-4 mx-auto">
+        <div class="col-lg-6" data-aos="flip-left">
           <ul class="list-unstyled d-inline-flex">
             <li class="circle shadow-sm mx-1 my-auto"><div></div></li>
             <li class="circle shadow-sm mx-1 my-auto"><div></div></li>
@@ -199,7 +218,7 @@
             <li>Shopping through overseas online stores</li>
           </ul>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6" data-aos="flip-right">
           <div class="double">
             <img
               src="../assets/Images/girlwithfile.png"
@@ -209,11 +228,11 @@
             <img
               src="../assets/Images/opacityBackground.png"
               class="position-absolute scd-img"
-              style="left: 58%; z-index: -1"
+              style="left: 10%; z-index: -1"
               alt=""
             />
 
-            <div class="bottom-box position-absolute bg-warning px-5 py-3 w-25">
+            <div class="bottom-box position-absolute bg-warning px-5 py-3 w-50">
               <h3 class="fw-bold">5 Years of Existence</h3>
               <p>
                 Connecting the World to people, Work anywhere and collect your
@@ -224,7 +243,7 @@
         </div>
       </div>
     </div>
-    <div class="members py-5">
+    <div class="members py-5" data-aos="fade-right">
       <div class="row bg-light shadow-sm m-0 py-3 px-5">
         <div class="col-4">
           <div class="d-inline-flex">
@@ -377,42 +396,42 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-6">
+        <div class="col-lg-3 col-md-3 col-sm-6" data-aos="flip-right">
           <img src="../assets/Images/coxPartner.png" alt="" />
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-6">
+        <div class="col-lg-3 col-md-3 col-sm-6" data-aos="flip-right">
           <img src="../assets/Images/perfectWaterPart.png" alt="" />
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-6">
+        <div class="col-lg-3 col-md-3 col-sm-6" data-aos="flip-right">
           <img src="../assets/Images/chickCompanyPart.png" alt="" />
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-6">
+        <div class="col-lg-3 col-md-3 col-sm-6" data-aos="flip-right">
           <img src="../assets/Images/powerPartner.png" alt="" />
         </div>
       </div>
       <div class="row m-0 p-5 second-row">
-        <div class="col-lg-4 col-sm-4 col-md-4 p-0">
+        <div class="col-lg-4 col-sm-4 col-md-4 p-0" data-aos="flip-left">
           <img src="../assets/Images/citiBank.png" alt="" />
         </div>
-        <div class="col-lg-4 col-sm-4 col-md-4 p-0">
+        <div class="col-lg-4 col-sm-4 col-md-4 p-0" data-aos="flip-left">
           <img src="../assets/Images/chase.png" alt="" />
         </div>
-        <div class="col-lg-4 col-sm-4 col-md-4 p-0">
+        <div class="col-lg-4 col-sm-4 col-md-4 p-0" data-aos="flip-left">
           <img src="../assets/Images/maldini.png" alt="" />
         </div>
-        <div class="col-lg-4 col-sm-4 col-md-4 p-0">
+        <div class="col-lg-4 col-sm-4 col-md-4 p-0" data-aos="flip-left">
           <img src="../assets/Images/mastercard.png" alt="" />
         </div>
-        <div class="col-lg-4 col-sm-4 col-md-4 p-0">
+        <div class="col-lg-4 col-sm-4 col-md-4 p-0" data-aos="flip-left">
           <img src="../assets/Images/visamaster.png" alt="" />
         </div>
-        <div class="col-lg-4 col-sm-4 col-md-4 p-0">
+        <div class="col-lg-4 col-sm-4 col-md-4 p-0" data-aos="flip-left">
           <img src="../assets/Images/welsfargo.png" alt="" />
         </div>
-        <div class="col-lg-4 col-sm-4 col-md-4 p-0">
+        <div class="col-lg-4 col-sm-4 col-md-4 p-0" data-aos="flip-left">
           <img src="../assets/Images/visaII.png" alt="" />
         </div>
-        <div class="col-lg-4 col-sm-4 col-md-4 p-0">
+        <div class="col-lg-4 col-sm-4 col-md-4 p-0" data-aos="flip-left">
           <img src="../assets/Images/visa.png" alt="" />
         </div>
       </div>
@@ -440,7 +459,7 @@ export default {
     }
 
     .carousel-caption {
-      // top: 50%;
+      top: 20%;
       transform: translateY(-35%);
       transform: translateX(20%);
       z-index: 1111;

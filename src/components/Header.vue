@@ -69,12 +69,12 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <router-link to="about" class="dropdown-item" href="#"
+                  <router-link to="/about" class="dropdown-item" href="#"
                     >who we are</router-link
                   >
                 </li>
                 <li>
-                  <router-link to="login" class="dropdown-item" href="#"
+                  <router-link to="/login" class="dropdown-item" href="#"
                     >Mission / vision</router-link
                   >
                 </li>
